@@ -25,6 +25,18 @@ git push
 ```
 Then open a Pull Request from `<your-name>` into `main` on GitHub and ask a teammate to review it.
 
+## Reviews and merging
+- `main` is protected: every change needs a Pull Request with **at least one approving review** from another team member. You cannot approve your own Pull Request.
+- Direct pushes, force pushes and deleting `main` are blocked for everyone, including the repository owner.
+- If you push new commits after a review, the earlier approval is dismissed and the Pull Request needs to be approved again.
+- After approval, merge the Pull Request on GitHub, then update your branch:
+  ```bash
+  git checkout <your-name>
+  git pull origin main
+  git push
+  ```
+- Commit only with your own GitHub account and your own Git identity (`git config user.name` / `user.email` matching your GitHub account), so your work is credited to you.
+
 ## Secrets
 - Never commit `.env`, `.env.local`, API keys, database passwords or other credentials.
 - Only `.env.example`, with empty values, belongs in the repo.
