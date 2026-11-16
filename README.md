@@ -5,6 +5,8 @@
 
 # FoodWise
 
+**Community Project | Group8B**
+
 ### Food Waste Reduction and Food Donation Platform
 
 **Connecting Surplus Food with Communities in Need.**
@@ -542,13 +544,13 @@ A code editor such as Visual Studio Code or Antigravity is recommended.
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/nabeel05-ship-it/FoodWise.git
+git clone https://github.com/nabeel05-ship-it/Group8B.git
 ```
 
 ### 2. Navigate to the Project Directory
 
 ```bash
-cd FoodWise
+cd Group8B
 ```
 
 ### 3. Install Dependencies
@@ -828,15 +830,9 @@ Actual impact depends on user adoption, operational execution, food suitability,
 
 ## 🤝 Contributing
 
-Contributions, suggestions, and improvements are welcome.
+This is the Group8B community project repository. Team members work on their own branches and merge into `main` only through a reviewed Pull Request.
 
-To contribute:
-
-1. Fork the repository.
-2. Create a feature branch.
-3. Make your changes.
-4. Run the available lint and build checks.
-5. Submit a pull request with a clear description of your changes.
+See **[CONTRIBUTING.md](./CONTRIBUTING.md)** for the full workflow: cloning, environment setup, branches, commits, Pull Requests and approvals.
 
 Please avoid committing secrets, confidential information, or unrelated generated files.
 
@@ -847,6 +843,8 @@ Please avoid committing secrets, confidential information, or unrelated generate
 | Field | Details |
 |---|---|
 | Project Name | FoodWise |
+| Project Type | Community Project — Group8B |
+| Team | Nabeel ([@nabeel05-ship-it](https://github.com/nabeel05-ship-it)), Nagashankar ([@NagashankarAakash](https://github.com/NagashankarAakash)), Preetham ([@preetham2812](https://github.com/preetham2812)) |
 | Official Problem Statement | Food Waste Reduction and Food Donation Platform |
 | Problem Description | Develop a platform connecting restaurants, hotels, and households with NGOs to donate surplus food before it is wasted. |
 | Domain | Food Waste Reduction and Food Donation |
@@ -859,7 +857,8 @@ Please avoid committing secrets, confidential information, or unrelated generate
 ### 🔗 Important Links
 
 - **Live Application:** https://food-wise-henna.vercel.app
-- **GitHub Repository:** https://github.com/nabeel05-ship-it/FoodWise
+- **GitHub Repository:** https://github.com/nabeel05-ship-it/Group8B
+- **Original FoodWise Repository:** https://github.com/nabeel05-ship-it/FoodWise
 - **MongoDB Atlas:** https://www.mongodb.com/atlas
 - **Groq Cloud:** https://console.groq.com/
 - **Vercel:** https://vercel.com/
@@ -868,9 +867,7 @@ Please avoid committing secrets, confidential information, or unrelated generate
 
 ## 📄 License
 
-No open-source license has been specified in this README.
-
-Unless a license is added to the repository, users should not assume that the project is available for unrestricted reuse, redistribution, or commercial use.
+This project is licensed under the **Apache License 2.0**. See the [LICENSE](./LICENSE) file for details.
 
 ---
 
